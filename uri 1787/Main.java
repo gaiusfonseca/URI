@@ -1,7 +1,7 @@
-
+//uri 1787
 import java.util.Scanner;
 
-class App{
+class Main{
 
     //intância um Scanner para capturar a entrada do usuário
     private static Scanner input = new Scanner(System.in);

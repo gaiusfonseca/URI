@@ -1,4 +1,4 @@
-
+//uri 1001
 import java.util.Scanner;
 
 public class Main{
