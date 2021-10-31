@@ -64,6 +64,6 @@ class Time{
 
     @Override
     public String toString(){
-        return String.format("%d:%d:%d", hour, minute, second);
+        return String.format("%d:%d:%d", getHour(), getMinute(), getSecond());
     }
 }
