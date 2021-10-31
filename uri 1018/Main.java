@@ -53,19 +53,18 @@ public class Main{
         displayArrangement(value, quantity, MONEY);
     }
 
-    /**
+   /**
      * Imprime a quantidade de cada uma das notas.
      * @param quantity um array que armazena a quantidade de cada uma das notas.
      * @param money um array que armazena o valor de cada uma das notas.
      */
     public static void displayArrangement(int value, int[] quantity, int[] money) {
-        
-        NumberFormat nf = NumberFormat.getCurrencyInstance(new Locale("pt", "BR"));
 
-        System.out.printf("%d%n", value);
+        System.out.printf("%d\n", value);
 
         for(int i = 0; i < money.length; i++){
-            System.out.println(quantity[i] + " nota(s) de " + nf.format(money[i]));
+            System.out.printf("%d nota(s) de R$ %d,00\n", quantity[i], money[i]);            
+            // System.out.println(quantity[i] + " nota(s) de " + money[i]);
         }
     }
 
